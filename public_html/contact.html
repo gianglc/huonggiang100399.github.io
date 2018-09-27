@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Bakery's World</title>
+		 <meta charset="UTF-8">
+		 <link href="css/style.css" type="text/css" rel="stylesheet">
+		 <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+		 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="header clearfix">
+
+				<h1 id="logo">The Recipe Magic</h1>
+				<ul class="menu">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="banner">
+				<h2>Contact Me</h2>
+			</div>
+
+			<div class="main content clearfix">
+
+				<div class ="content narrow">
+					<p class="lead center">Questions or comments?</p>
+
+					<form>
+							<div class="row">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name">
+						</div>
+
+							<div class="row">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email">
+						</div>
+
+						<div class="row">
+							<p>Which type of cake do you want me to talk about next?</p>
+
+							<input type="radio" name="type_of_cakes" value="cookies" id="cookies">
+							<label for="cookies">Cookies</label>
+							<p id="java" style="display:none">Surprise!</p>
+
+							<button type="button" onclick="document.getElementById('java').style.display='block'">Choose me!</button>
+							<br>
+							<input type="radio" name="type_of_cakes" value="cupcakes" id="cupcakes">
+							<label for="cupcakes">Cupcakes</label>
+						</div>
+
+						<div class="row">
+							<p>Reason for contacting me. You may select more than one.</p>
+
+							<input type="checkbox" name="why_contacting" value="to_comment_another_recipe" id="to_comment_another_recipe">
+							<label for="to_comment_another_recipe">To comment another recipe</label>
+
+							<br>
+
+				
+							<input type="checkbox" name="why_contacting" value="to_question_about_the_recipe" id="to_question_about_the_recipe">
+							<label for="to_question_about_the_recipe">To question about the recipe</label>
+							<br>
+
+								
+							<input type="checkbox" name="why_contacting" value="to_deal_with_the_problems_of_the_recipe" id="to_deal_with_the_problems_of_the_recipe">
+							<label for="to_deal_with_the_problems_of_the_recipe">To deal with the problems of the recipe</label>
+							</div>
+
+						<div class="row">
+							<label for="your_message">Your message</label>
+							<textarea name="your_message" id="your_message"></textarea>
+						</div>
+
+						<div class="row">
+							<input class="button" type="submit" value="Contact me">
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+			<div class="footer clearfix">
+				<p>
+					&copy; 2017 Bakery's World
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
